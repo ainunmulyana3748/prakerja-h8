@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.container{
+    padding-left: 10%;
+}
+
+.header{
+    padding: 20px;
+    border-bottom: 2px solid #808080;
+    background: white;
+    text-align: right;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.header ul li{
+    font-size: 15px;
+    display: inline-block;
+    color: black;
+    margin-left: 25px;
+}
+
+.background{
+    background: aliceblue no-repeat;   
+}
+
+.identitas{
+    height: 100%;
+    display: flex;
+    align-items: center;   
+    margin-top: 20px;
+}
+
+.identitas ul {
+    font-size: 20px;
+    display: inline-block;
+    color: black;
+    list-style-type: none;
+}
+
+.logo {
+    height: 100%;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.logo img{
+    height: 100%;
+    border-radius: 50px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+.nama {
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.nama li {
+    margin-bottom: 10px;
+}
+
+
+.kontak {
+    color: white;
+    border: 1px solid blue;
+    background: blue;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    margin-top: 45px;
+}
+
+.resume{
+    color: green;
+    border: 1px solid #73AD21;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+.isi1 {
+    width: 100px;
+    margin-right: 100px;
+}
+
+.isi1 li{
+    margin-top: 12px;
+}
+
+.konten{
+    width: 1395.55px;
+}
+
+.konten input{
+    width: 100%;
+    height: 25px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.submit{
+    width: 100%;
+    height: 35px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    margin-right: 10%;
+    background: green;
+    color: white;   
+    border: none;
+}
+
+.konten{
+    padding-top: 40px;
+}

@@ -1,0 +1,14 @@
+.identitas {
+    width: 100px;
+    height: 100px;
+    list-style-type: none;
+}
+
+.identitas .ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.identitas .ul .li{
+    list-style-type: none;
+}

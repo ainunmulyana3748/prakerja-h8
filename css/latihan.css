@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-navbar{
+    height: 50px;
+    border-bottom: 2px solid grey;
+    text-align: right;
+    position: relative;
+    padding-right: 100px;
+}
+
+.menu-navbar a{
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+#section-profile{
+    display: flex;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.logo{
+    height: 100%;
+    margin-right: 50px;
+}
+.nama{
+    list-style: none;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.nama ul li{
+    height: 100%;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nama .kontak{
+    margin-top: 80px;
+    width: 100px;
+    height: 50px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.resume{
+    width: 100px;
+    height: 50px;
+    color: green;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.isi1{
+    height: 100%;
+}
+
+.isi1 ul li{
+    margin-bottom: 22px;
+    margin-right: 80px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#form-input .isi-konten{
+    width: 1650px;
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form-input .isi-konten input{
+    width: 100%;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.submit{
+    background: green;
+    color: white;
+    width: 1655px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+@media(min-width: 321px){
+    .menu-navbar{
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px){
+    .menu-navbar{
+        width: 100%;
+    }
+}
